@@ -15,9 +15,26 @@ html{
 .container{
     width:70vw;
     margin:40px auto;
-    
 }
 
+.img-right{
+    float: right;
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    margin-left:20px;
+}
+
+.img-left{
+    float: left;
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-right:20px;
+}
+
+.img-center{
+    display: block;
+    margin:15px auto;    
+}
 
 /* -------------- Responsive Images -------------*/
 
@@ -50,6 +67,8 @@ img{
     display:flex;
     flex-direction:row;
     justify-content:space-between;
+    border-bottom:5px dotted #000000;
+    padding-bottom:2.8rem;
 }
 
 #content article.post {
@@ -83,6 +102,54 @@ article.post a{
 }
 
 /* ------ Atribute Selector ----- */
+
+#additional-elements{
+    line-height:1.5;
+}
+
+#additional-elements a,  #additional-elements a:visited{
+    color:#0800E6;
+}
+
+#additional-elements h2{
+    text-align:center;
+    color:#3B93FF;
+    border-bottom:1px dotted #c0c0c0;
+    border-bottom-color: #3B93FF;
+}
+
+#additional-elements h3{
+    border-left:8px solid #000;
+    padding:5px 10px;
+}
+
+table{
+    width:100%;
+    border:1px solid #000;
+    margin-bottom:40px;
+    border-collapse:collapse;
+}
+table tr:nth-child(odd){
+    background-color:rgba(0,0,0,.1);
+}
+table tr:hover{
+    background-color:rgba(0,0,0,.2);
+}
+table th{
+    /*border:1px solid #000;*/
+    background:#0800E6;
+    color:#fff;
+    width:33%;
+}
+table td{
+    border:1px solid #000;
+    padding:5px;
+}
+table caption{
+    font-size:1.6rem;
+}
+
+
 aside[role="complementary"]{
     background-color:#3B93FF;
     color:#fff;
@@ -121,6 +188,12 @@ header.primary{
     /* First value top/bottom and second value is right and left */
     /* padding: 20px 40px; */
     text-shadow:2px 2px #000000;
+    
+    
+    
+    /*background-color: #9fb6d5;*/
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23ffffff' fill-opacity='0.45' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    
 }
 
 header.primary h1{
@@ -172,8 +245,32 @@ header nav a:hover{
 }
 
 
+article.widget a {
+    color:#fff;
+    display:block;
+    margin-top:1rem;
+}
 
+article.widget footer{
+    /*display:none;*/
+}
 
+#colophon {
+    background-color:#3B93FF;
+}
+
+#colophon h6{
+    padding:20px;
+    margin:.8rem;
+    /*text-align:center;*/
+    padding-left:3.8rem;
+    color:#fff;
+    /*text-transform:uppercase;*/
+}
+
+section#addition-elements{
+    ma
+}
 
 /* Media Query Example */
 
