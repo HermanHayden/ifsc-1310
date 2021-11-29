@@ -73,6 +73,10 @@ td{
     text-align: center;
 }
 
+table, th, td {
+  border: 1px solid black;
+}
+
 /* Media Query Example */
 
 @media screen and (max-width:600px){
