@@ -7,6 +7,42 @@ html{
     box-sizing: inherit;
 }
 
+#titleHeader{
+    padding-top: 10px;
+}
+
+body {
+    font-family: 'Lora', serif;
+    margin:0 0;
+    margin-top:60px;
+    padding:0 30px;
+    background: #35393F;
+    color:#fff;
+}
+
+nav ul{
+    background: #202020;
+    display: flex;
+    align-items: column;
+    justify-content: space-around;
+    list-style-type: none;
+    padding:15px 0;
+    margin:0;
+    position: fixed;
+    top:0;
+    right:0;
+    width:100%;
+}
+
+nav ul a {
+    text-decoration:none;
+    color: #fff;
+}
+
+nav ul a:hover {
+    text-decoration:underline;
+}
+
 footer ul {
     list-style-type: none;
     margin: 10px 0;
@@ -14,4 +50,33 @@ footer ul {
     display: flex;
     align-items: column;
     justify-content: space-around;
+    background-color: #202020;
+    color:#fff;
+}
+
+article {
+    border: #AEAEAE solid 1.2px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+table{
+    width:100%;
+}
+
+td{
+    text-align: center;
+}
+
+/* Media Query Example */
+
+@media screen and (max-width:600px){
+    
+    
+    
 }

@@ -14,7 +14,7 @@ html{
 /*--------------- Utility Classes ---------------*/
 .container{
     width:70vw;
-    margin:40px auto;
+    margin:0 auto;
 }
 
 .img-right{
@@ -316,7 +316,7 @@ article.widget footer{
 }
 
 section#addition-elements{
-    ma
+    
 }
 
 /* Media Query Example */
