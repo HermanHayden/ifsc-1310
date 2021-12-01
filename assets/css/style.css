@@ -13,6 +13,16 @@ h1{
     border-bottom:3px dashed #000;
 }
 
+h2 {
+    padding: 0 10px;
+    margin-bottom: 0;
+}
+
+p {
+    text-size:1.5rem;
+    padding: 0 10px;
+}
+
 a : visited {
     text:#fff;
 }
