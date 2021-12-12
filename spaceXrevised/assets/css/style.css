@@ -7,16 +7,6 @@ html{
     box-sizing: inherit;
 }
 
-#titleHeader{
-    padding-top: 10px;
-}
-
-/*html, body, #body2
-{
-    height: 100%;
-    padding-bottom: 10px;
-}*/
-
 body {
     font-family: 'Lora', serif;
     margin:0 0;
@@ -38,6 +28,13 @@ nav ul{
     top:0;
     right:0;
     width:100%;
+}
+
+nav li{
+    display:inline-block;
+}
+nav li:hover{
+    background: #909090;
 }
 
 nav ul a {
@@ -72,6 +69,11 @@ table, th, td {
   border: 1px solid black;
 }
 
+/*#colophonHistory{
+    position:absolute;
+    bottom:9px;
+}*/
+
 footer ul {
     list-style-type: none;
     margin: 10px 0;
@@ -87,6 +89,34 @@ footer a{
     color:#fff;
     text-decoration: none;
 }
+
+.gallery {
+	background-color: #CCC;
+	float:right;
+	width: 500px;
+	height: 300px;
+	margin: 15px auto;
+	margin-top:0;
+	border: 1px solid #fff;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 4px;
+}
+
+#contentHistory{
+    height:300px;
+}
+
+table{
+    margin-bottom:40px;
+}
+
+#wufoo-z1qf0xhp089ska0{
+    margin-bottom:70px;
+}
+
+/*#contentHistory {
+   min-height: 80%;
+}*/
 
 /* Media Query Example */
 

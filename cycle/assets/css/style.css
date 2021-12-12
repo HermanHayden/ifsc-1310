@@ -1,0 +1,48 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #000;
+}
+
+.gallery {
+	background-color: #CCC;
+	width: 730px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	height: 516px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 4px;
+}
+
+ul {
+    color:#fff;
+    display: flex;
+    justify-content: space-around;
+    flex-direciton: column;
+    list-style-type: none;
+    margin: 10px auto;
+    width: 730px;
+}
+
+a {
+    display:inline-block;
+    padding: 10px;
+    border: 2px solid grey;
+    background-color:#3A3B3C;
+    border-radius: 10px;
+}
+li a:link{
+    color:#fff;
+}
+li a:visited{
+    color:#fff;
+}
+
+.gallery img {
+	margin: 15px;
+}
